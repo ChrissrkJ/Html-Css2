@@ -1,19 +1,177 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
 #homepage{
+	background-image: url(../img/bg-body.jpg);
+	margin-top:20px;
+	font-family: MONOSPACE, serif;
+
+	.container {
+
+		header, .banner, .work{
+			margin-bottom: 60px;
+		}
+
+		header {
+			ul {
+				background-color:black;
+				width:90%;
+				height: 28px;
+				margin:auto;
+				padding-left: 11px;
+				li{
+					color:#bbb;
+					display: inline-block;
+					padding-right: 12px;
+					font-size: 12px;
+					font-weight: bold;
+					
+					&:hover {
+						color:orange;
+						cursor: pointer;
+					}
+				}
+			}
+		}
+
+		.banner {
+			h1 {
+				text-transform: uppercase;
+			}
+
+			p {
+				color:#757272;
+			}
+		}
+
+		.work{
+			h6 {
+				background-color: #333;
+			    height: 40px;
+			    text-transform: uppercase;
+			    color: #fff;
+			    padding: 10px;
+			    width: 100%;
+			}
+		}
+
+		.work_capt{
+			background-color: #fff;
+    		height: 90px;
+    		color: #bbb;
+    		text-align: center;
+    		padding-top:10px;
+		}
+
+		.work{
+			.work_block {
+			padding-top: 30px;
+			}
+
+			.blog_block{
+				padding-top: 30px;
+				height: 425px;
+				margin: auto;
+				.blog{
+					height:25px;
+				}
+			}
+		}
 
 
-/** pour les ICONS **/
-	#icon{
-	  	display:block;
-	 	background: url('../imgs/social-icons.png') no-repeat 0 0;
-		width: 46px;
-		height: 46px;
+
+
 	}
-	/* on décale l'image de fond de la hauteur du lien*/
-	#icon:hover,#icon:active,#icon:focus{
-	  	background: url('../imgs/social-icons.png') no-repeat 0 -47px;
-		width: 46px;
-		height: 46px;
+
+
+	footer{
+			background-color:#333;
+			color:#bbb;
+			font-size: 10px;
+		.container{
+			h5 {
+				text-transform: uppercase;
+				padding-top: 15px;
+			}
+
+			.social_ico{
+						.fb{
+							background-image: url(../img/social-icons.png);
+							background-repeat: no-repeat;
+							background-position: 0px 0px; 
+							width: 48px;
+							height: 47px;
+							&:hover{
+								background-position: 0px -46px; 
+								width: 48px;
+								height: 47px;
+							}
+						}
+
+						.twitter{
+							background-image: url(../img/social-icons.png);
+							background-repeat: no-repeat;
+							background-position: -50px 0px; 
+							width: 48px;
+							height: 47px;
+							&:hover{
+								background-position: -50px -46px; 
+								width: 48px;
+								height: 47px;
+							}
+						}
+
+						.dribble{
+							background-image: url(../img/social-icons.png);
+							background-repeat: no-repeat;
+							background-position: -102px 0px; 
+							width: 48px;
+							height: 47px;
+							&:hover{
+								background-position: -103px -46px; 
+								width: 48px;
+								height: 47px;
+							}
+						}
+
+						.rss{
+							background-image: url(../img/social-icons.png);
+							background-repeat: no-repeat;
+							background-position: -154px 0px; 
+							width: 48px;
+							height: 47px;
+							&:hover{
+								background-position: -154px -46px; 
+								width: 48px;
+								height: 47px;
+							}
+						}
+			}
+
+			.post {
+						font-weight: bold;
+						font-size: 12px;
+						.dot_line {
+							background-color: #333;
+						    width: 70%;
+						    border-top: 1px dashed grey;
+						}
+			}
+
+			.flikr {
+						img {
+							margin-right: 5px;
+							margin-bottom: 5px;
+						}
+			}
+		}
+
+		.footer_end{
+			background-color: #1f1f1f;
+		}
+
+
 	}
-
-
 }

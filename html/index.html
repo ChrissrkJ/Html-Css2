@@ -3,13 +3,19 @@
 <head>
 	<meta charset="utf-8">
 	<title>Wonder</title>
-	<link rel="stylesheet" href="../css/style.css" type="text/css" charset="utf-8">
+	<link rel="stylesheet" href="../css/font-awesome/css/font-awesome.css" type="text/css"  >
+	<link rel="stylesheet" href="../css/bootstraps/css/bootstrap.css" type="text/css" >
+	<link rel="stylesheet" href="../css/custom.css" type="text/css" charset="utf-8">
+
+
 </head>
-<body id="homepage">
-	<section class="containe1">
-		<header>
-			<div class="entete">
-				<div class="logo"><img src="../img/page-logo.png"</div>
+<body id="homepage" >
+	<section class="container" >
+		<header class="row ">
+			<div class="entete col-md-7 col-sm-12" id="logo">
+				<img src="../img/page-logo.png" class="img-fluid"</div>
+			</div>
+			<div class="col-md-5 col-sm-12" id="menu">
 				<nav>
 					<ul>
 						<li>Home<li>
@@ -19,132 +25,176 @@
 						<li>Blog<li>
 						<li>Contact<li>
 					</ul>
-				</nav>
-			</div>
-			
+				</nav>	
+			</div>	
 		</header>
+
+
+		<aside class="row banner">	
+			<div class="col-md-8">
+				<img src="../img/slider/slider1.jpg" class="img-fluid">
+			</div>
+
+			<div class="col-md-4">
+				<h1>Essent potestatem est et haberet signa.</h1>
+				<p>Erat rei quot decrevi tributus reprehendant magis est Ergo in tributus dierum consilium sententia quam.</p>
+			</div>
+
+		</aside>
+
+		<aside class="row work">
+			<h6 class="col-md-12"><span class="text-warning">Take a look</span> at our work</h6>	
+					
+					<div class="col-md-3 work_block">
+
+						<img src="../img/work-1.jpg" alt="image" class="img-fluid">
+						<div class="work_capt">
+							<h3><span class="text-warning">Bad Dinosaur</span></h3>Not so bad really
+						</div>
+
+					</div>
+
+					<div class="col-md-3 work_block">
+
+						<img src="../img/work-2.jpg" alt="image" class="img-fluid">
+						<div class="work_capt">
+							<h3><span class="text-warning">Bad Dinosaur</span></h3>Not so bad really
+						</div>
+
+					</div>
+
+					<div class="col-md-3 work_block">
+
+						<img src="../img/work-3.jpg" alt="image" class="img-fluid">
+						<div class="work_capt">
+							<h3><span class="text-warning">Bad Dinosaur</span></h3>
+						Not so bad really
+						</div>
+
+					</div>
+
+					<div class="col-md-3 work_block">
+
+						<img src="../img/work-4.jpg" alt="image" class="img-fluid">
+						<div class="work_capt">
+							<h3><span class="text-warning">Bad Dinosaur</span></h3>
+						Not so bad really
+						</div>
+
+					</div>
+		</aside>
+
+
+		<aside class="row work">
+			<div class="col-md-6">
+				<h6><span class="text-warning">From the blog</span> all the latest news</h6>
+				
+				<div class="row blog_block">
+					<div class="col-md-6 blog">
+						<img src="../img/blog-1.jpg" alt="image" class="img-fluid">
+					</div>
+
+					<div class="col-md-6 blog">
+						<h3>Your are super Awesome</h3>
+						<p>Posted on Date<br> date </p>
+					</div>
+
+					<p>Erat rei quot decrevi tributus reprehendant magis est Ergo in tributus dierum consilium sententia quam</p>
+				</div>
+				
+			</div>
+
+			<div class="col-md-6">
+				<div class="row " >
+					<h6><span class="text-warning">recent video</span> created by us</h6>
+				
+					<iframe class="blog_block" width="560" height="315" src="https://www.youtube.com/embed/-8tGzPmE51c" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</aside>
+
+	</section>
 		
-		<div class="slide">
-			<div class="slide_img">
-				<img class="mySlides" src="../img/slider/slider1.jpg">
-				<img class="mySlides" src="../img/slider/slider2.jpg">
-				<img class="mySlides" src="../img/slider/slider3.jpg">
-				<img class="mySlides" src="../img/slider/slider4.jpg">
+	<footer class="row">
+		<section class="container">
+
+		<div class="row">	
+			<div class="col-md-3">
+				<h5>contact</h5>
+				<img src="../img/footer-log.jpg" class="img-fluid">
+				<p>Wonder bunker<br>
+					blabla <br>
+					balbala
+				</p>
+
+				<div class="row social_ico">
+					<div class="fb"><img src="#"></div>
+					<div class="twitter"><img src="#"></div>
+					<div class="rss"><img src="#"></div>
+					<div class="dribble"><img src="#"></div>
+				</div>
 			</div>
 
-			<div class="slide_btn">
-				<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-				<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+			<div class="col-md-3">
+				<h5>Latest news</h5>
+				<p><strong>@perso1: </strong>blablabla Nec quis atque erunt suspecta Haec atque semper quando neque.</p>
+				<p><strong>@perso1: </strong>blablabla Nec quis atque erunt suspecta Haec atque semper quando neque.</p>
+				<p><strong>@perso1: </strong>blablabla Nec quis atque erunt suspecta Haec atque semper quando neque.</p>		
 			</div>
 
-			<div class="slide_dot">
+			<div class="col-md-3 post">
+				<h5>Latest Post</h5>
+				<p>example : post number one</p>
+				<hr class="dot_line">
+				<p>example : post number one</p>
+				<hr class="dot_line">
+				<p>example : post number one</p>
+				<hr class="dot_line">
+				<p>example : post number one</p>
+				<hr class="dot_line">
+			</div>
 
+			<div class="col-md-3">
+				<h5>Flikr Photo</h5>
+				<div class="row flikr">
+					<img src="../img/flickr/1.jpg" alt="image" class="img-fluid" >
+					<img src="../img/flickr/2.jpg" alt="image" class="img-fluid" >
+					<img src="../img/flickr/3.jpg" alt="image" class="img-fluid" >
+					<img src="../img/flickr/4.jpg" alt="image" class="img-fluid" >
+				</div>
+				
+				<div class="row flikr">
+					<img src="../img/flickr/5.jpg" alt="image" class="img-fluid">
+					<img src="../img/flickr/6.jpg" alt="image" class="img-fluid">
+					<img src="../img/flickr/7.jpg" alt="image" class="img-fluid">
+					<img src="../img/flickr/8.jpg" alt="image" class="img-fluid">
+				</div>
+
+				<div class="row flikr">
+					<img src="../img/flickr/9.jpg" alt="image" class="img-fluid">
+					<img src="../img/flickr/10.jpg" alt="image" class="img-fluid">
+					<img src="../img/flickr/11.jpg" alt="image" class="img-fluid">
+					<img src="../img/flickr/12.jpg" alt="image" class="img-fluid">
+				</div>
 			</div>
 		</div>
 
-		<div class="gallery">
-
-			<h2 class="sec_title">Take a look at our work</h2>
-			
-			<div class="gall_bloc">
-				<div><img src="../img/work1.jpg"></div>
-				<h4>Bad Dinosaur</h4>
-				<p>Not so bad really</p>
+		<div class="row footer_end">
+			<div class="col-md-8">
+				<p>Copyright blablabla</p>
 			</div>
 
-			<div class="gall_bloc">
-				<div><img src="../img/work2.jpg"></div>
-				<h4>Bad Dinosaur</h4>
-				<p>Not so bad really</p>
+			<div class="col-md-4">
+					<p>Home feature gallery blabla blabla</p>
 			</div>
-
-			<div class="gall_bloc">
-				<div><img src="../img/work3.jpg"></div>
-				<h4>Bad Dinosaur</h4>
-				<p>Not so bad really</p>
-			</div>
-
-			<div class="gall_bloc">
-				<div><img src="../img/work4.jpg"></div>
-				<h4>Bad Dinosaur</h4>
-				<p>Not so bad really</p>
-			</div>
-
 		</div>
 
-		<div class="news">
 
-			<h2 class="sec_title"></h2>
-
-			<img src="../img/blog-1.jpg">
-
-			<div class="news_details">
-				<h5>you are super awesome</h5>
-				<p>Posted on : Aug, Oct 2013 <br/> Posted by : admin</p>
-			</div>
-
-			<p>Et habere certam in provincia provincia est sis provincia designatus in antequam Februario Sortietur consulatu.</p>
-
-		</div>
-
-		<div class="video">
-
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/hhfMqMJZT_8" frameborder="0" allowfullscreen></iframe>
-
-		</div>
 
 	</section>
 
-	<footer>
-		<div class="contact">
-
-			<img src="../img/footer-log.png">
-			<p><strong>Wonder Bunker</strong></p>
-			<p>6064 Amazing St,<br/> Madrid, Spain</p>
-			<div>
-				<a href="#" title="icon" id="#icon"></a>
-			</div>
-
-		</div>
-
-		<div class="news">
-			<h3>Latest Tweets</h3>
-			<ul>
-				<li>@Pesro_ : Blablablabkdkahedelihdoizehdoheiz</li>
-				<li>@Pesro_ : Blablablabkdkahedelihdoizehdoheiz</li>
-				<li>@Pesro_ : Blablablabkdkahedelihdoizehdoheiz</li>	
-			</ul>
-		</div>
-		
-		<div class="post">
-			<h3>Latest Post</h3>
-			<p>Post numéro 1 du site</p>
-			<p>Post numéro 1 du site</p>
-			<p>Post numéro 1 du site</p>
-			<p>Post numéro 1 du site</p>
-		</div>
-		
-		<div class="flikr">
-			<img src="../img/flickr/1.jpg" alt="image">
-			<img src="../img/flickr/2.jpg" alt="image">
-			<img src="../img/flickr/3.jpg" alt="image">
-			<img src="../img/flickr/4.jpg" alt="image">
-			<img src="../img/flickr/5.jpg" alt="image">
-			<img src="../img/flickr/6.jpg" alt="image">
-			<img src="../img/flickr/7.jpg" alt="image">
-			<img src="../img/flickr/8.jpg" alt="image">
-			<img src="../img/flickr/9.jpg" alt="image">
-			<img src="../img/flickr/10.jpg" alt="image">
-			<img src="../img/flickr/11.jpg" alt="image">
-			<img src="../img/flickr/12.jpg" alt="image">
-		</div>
-
-		<div="copyright">
-			<p>Copyright 2012 Wonder Theme. All rigths reserved.</p>
-			<p>Home features Gallery Blog Contact</p>
-		</div>
-
 	</footer>
+
 
 
 </body>
