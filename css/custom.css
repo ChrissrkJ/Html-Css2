@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+#homepage {
+  background-image: url(../img/bg-body.jpg);
+  margin-top: 20px;
+  font-family: MONOSPACE, serif; }
+  #homepage .container header, #homepage .container .banner, #homepage .container .work {
+    margin-bottom: 60px; }
+  #homepage .container header ul {
+    background-color: black;
+    width: 90%;
+    height: 28px;
+    margin: auto;
+    padding-left: 11px; }
+    #homepage .container header ul li {
+      color: #bbb;
+      display: inline-block;
+      padding-right: 12px;
+      font-size: 12px;
+      font-weight: bold; }
+      #homepage .container header ul li:hover {
+        color: orange;
+        cursor: pointer; }
+  #homepage .container .banner h1 {
+    text-transform: uppercase; }
+  #homepage .container .banner p {
+    color: #757272; }
+  #homepage .container .work h6 {
+    background-color: #333;
+    height: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+    width: 100%; }
+  #homepage .container .work_capt {
+    background-color: #fff;
+    height: 90px;
+    color: #bbb;
+    text-align: center;
+    padding-top: 10px; }
+  #homepage .container .work .work_block {
+    padding-top: 30px; }
+  #homepage .container .work .blog_block {
+    padding-top: 30px;
+    height: 425px;
+    margin: auto; }
+    #homepage .container .work .blog_block .blog {
+      height: 25px; }
+  #homepage footer {
+    background-color: #333;
+    color: #bbb;
+    font-size: 10px; }
+    #homepage footer .container {
+      height: 320px; }
+      #homepage footer .container .footer_begin {
+        margin-bottom: 30px; }
+        #homepage footer .container .footer_begin h5 {
+          text-transform: uppercase;
+          padding-top: 15px; }
+        #homepage footer .container .footer_begin .social_ico .fb {
+          background-image: url(../img/social-icons.png);
+          background-repeat: no-repeat;
+          background-position: 0px 0px;
+          width: 48px;
+          height: 47px; }
+          #homepage footer .container .footer_begin .social_ico .fb:hover {
+            background-position: 0px -46px;
+            width: 48px;
+            height: 47px; }
+        #homepage footer .container .footer_begin .social_ico .twitter {
+          background-image: url(../img/social-icons.png);
+          background-repeat: no-repeat;
+          background-position: -50px 0px;
+          width: 48px;
+          height: 47px; }
+          #homepage footer .container .footer_begin .social_ico .twitter:hover {
+            background-position: -50px -46px;
+            width: 48px;
+            height: 47px; }
+        #homepage footer .container .footer_begin .social_ico .dribble {
+          background-image: url(../img/social-icons.png);
+          background-repeat: no-repeat;
+          background-position: -102px 0px;
+          width: 48px;
+          height: 47px; }
+          #homepage footer .container .footer_begin .social_ico .dribble:hover {
+            background-position: -103px -46px;
+            width: 48px;
+            height: 47px; }
+        #homepage footer .container .footer_begin .social_ico .rss {
+          background-image: url(../img/social-icons.png);
+          background-repeat: no-repeat;
+          background-position: -154px 0px;
+          width: 48px;
+          height: 47px; }
+          #homepage footer .container .footer_begin .social_ico .rss:hover {
+            background-position: -154px -46px;
+            width: 48px;
+            height: 47px; }
+        #homepage footer .container .footer_begin .post {
+          font-weight: bold;
+          font-size: 12px; }
+          #homepage footer .container .footer_begin .post .dot_line {
+            background-color: #333;
+            width: 70%;
+            border-top: 1px dashed grey; }
+        #homepage footer .container .footer_begin .flikr img {
+          margin-right: 5px;
+          margin-bottom: 5px; }
+      #homepage footer .container .footer_end {
+        background-color: #1f1f1f;
+        height: 30px; }
+        #homepage footer .container .footer_end .copy, #homepage footer .container .footer_end .feature {
+          padding-top: 8px; }
+        #homepage footer .container .footer_end .feature {
+          text-align: right; }
+
+/*# sourceMappingURL=custom.css.map */

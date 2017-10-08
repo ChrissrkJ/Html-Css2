@@ -90,87 +90,107 @@
 			background-color:#333;
 			color:#bbb;
 			font-size: 10px;
+
 		.container{
-			h5 {
-				text-transform: uppercase;
-				padding-top: 15px;
+			height: 320px;
+
+			.footer_begin{ 
+				margin-bottom: 30px;
+
+				h5 {
+					text-transform: uppercase;
+					padding-top: 15px;
+				}
+
+				.social_ico{
+							.fb{
+								background-image: url(../img/social-icons.png);
+								background-repeat: no-repeat;
+								background-position: 0px 0px; 
+								width: 48px;
+								height: 47px;
+								&:hover{
+									background-position: 0px -46px; 
+									width: 48px;
+									height: 47px;
+								}
+							}
+
+							.twitter{
+								background-image: url(../img/social-icons.png);
+								background-repeat: no-repeat;
+								background-position: -50px 0px; 
+								width: 48px;
+								height: 47px;
+								&:hover{
+									background-position: -50px -46px; 
+									width: 48px;
+									height: 47px;
+								}
+							}
+
+							.dribble{
+								background-image: url(../img/social-icons.png);
+								background-repeat: no-repeat;
+								background-position: -102px 0px; 
+								width: 48px;
+								height: 47px;
+								&:hover{
+									background-position: -103px -46px; 
+									width: 48px;
+									height: 47px;
+								}
+							}
+
+							.rss{
+								background-image: url(../img/social-icons.png);
+								background-repeat: no-repeat;
+								background-position: -154px 0px; 
+								width: 48px;
+								height: 47px;
+								&:hover{
+									background-position: -154px -46px; 
+									width: 48px;
+									height: 47px;
+								}
+							}
+				}
+
+				.post {
+							font-weight: bold;
+							font-size: 12px;
+							.dot_line {
+								background-color: #333;
+							    width: 70%;
+							    border-top: 1px dashed grey;
+							}
+				}
+
+				.flikr {
+							img {
+								margin-right: 5px;
+								margin-bottom: 5px;
+							}
+				}
 			}
 
-			.social_ico{
-						.fb{
-							background-image: url(../img/social-icons.png);
-							background-repeat: no-repeat;
-							background-position: 0px 0px; 
-							width: 48px;
-							height: 47px;
-							&:hover{
-								background-position: 0px -46px; 
-								width: 48px;
-								height: 47px;
-							}
-						}
+			.footer_end{
+				background-color: #1f1f1f;
+				height: 30px;
 
-						.twitter{
-							background-image: url(../img/social-icons.png);
-							background-repeat: no-repeat;
-							background-position: -50px 0px; 
-							width: 48px;
-							height: 47px;
-							&:hover{
-								background-position: -50px -46px; 
-								width: 48px;
-								height: 47px;
-							}
-						}
+				.copy, .feature{
+					padding-top: 8px;
+				}
 
-						.dribble{
-							background-image: url(../img/social-icons.png);
-							background-repeat: no-repeat;
-							background-position: -102px 0px; 
-							width: 48px;
-							height: 47px;
-							&:hover{
-								background-position: -103px -46px; 
-								width: 48px;
-								height: 47px;
-							}
-						}
-
-						.rss{
-							background-image: url(../img/social-icons.png);
-							background-repeat: no-repeat;
-							background-position: -154px 0px; 
-							width: 48px;
-							height: 47px;
-							&:hover{
-								background-position: -154px -46px; 
-								width: 48px;
-								height: 47px;
-							}
-						}
-			}
-
-			.post {
-						font-weight: bold;
-						font-size: 12px;
-						.dot_line {
-							background-color: #333;
-						    width: 70%;
-						    border-top: 1px dashed grey;
-						}
-			}
-
-			.flikr {
-						img {
-							margin-right: 5px;
-							margin-bottom: 5px;
-						}
+				.feature {
+					text-align: right;
+				}
 			}
 		}
 
-		.footer_end{
-			background-color: #1f1f1f;
-		}
+		
+
+		
 
 
 	}
